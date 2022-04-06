@@ -50,7 +50,7 @@ public class CRUDGenerico {
 	      arqLivros.delete(id3);
 	      Livro l = arqLivros.read(id3);
 	      if(l==null)
-	        System.out.println("Livro excluído");
+	        System.out.println("\nLivro excluído");
 	      else
 	        System.out.println(l);
 
